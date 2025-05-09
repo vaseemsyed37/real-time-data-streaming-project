@@ -20,6 +20,6 @@ data-warehouse-snowflake-for-data-engineering
 ### Terminal Output
 ![Terminal Output](screenshots/terminal.jpeg)
 
-### EC2 Instance Details
-![EC2 Instance](screenshots/EC2_instance.jpeg)
+### EC2 Instance
+![EC2 Instance](screenshots/EC2_instance_.jpeg)
 

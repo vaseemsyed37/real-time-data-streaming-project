@@ -35,15 +35,15 @@ Data lakes for big data analysis
 
 The ELT (Extract, Load, Transform) process in this project is broken down as follows:
 
-## Extract:
+### Extract:
 
 Jupyter Notebook generates fake data using a Python script (faker library) and outputs the data in a CSV format.
 
-## Load:
+### Load:
 
 The data is loaded into AWS S3 using Apache Nifi. The data is transferred securely with the help of IAM roles and access keys.
 
-## Transform:
+### Transform:
 
 The data is transformed once it is in Snowflake. Snowflake performs any necessary transformations (like data cleansing, aggregations) using SQL scripts, and stores it in staging or history tables.
 
@@ -82,33 +82,33 @@ Jupyter Notebook: Python environment to run the script for generating fake data.
 
 ### Steps to Run
 
-## Start EC2 Instance:
+### Start EC2 Instance:
 
 Launch an EC2 instance and set up the necessary environment for Python and Jupyter.
 
 SSH into the instance to access the terminal.
 
-## Run Data Generation Script:
+### Run Data Generation Script:
 
 Use Jupyter Notebook to execute the Python script (faker.ipynb) to generate the fake data.
 
-## Set Up Apache Nifi:
+### Set Up Apache Nifi:
 
 Configure Apache Nifi to fetch the data and load it into S3 using proper IAM credentials.
 
-## Load Data into Snowflake:
+### Load Data into Snowflake:
 
 Set up Snowflake for receiving the data.
 
 Create staging tables, and load the raw data into these tables.
 
-## Monitor and Analyze:
+### Monitor and Analyze:
 
 Once data is loaded into Snowflake, you can query it for analysis or integrate it with BI tools.
 
 ### Conclusion
 This project demonstrates how to integrate multiple services and technologies for real-time data processing. By automating the data pipeline from generation to storage, we can achieve seamless data flow and faster decision-making. The project can be extended to handle real-time streams and large-scale datasets.
 
-## License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 

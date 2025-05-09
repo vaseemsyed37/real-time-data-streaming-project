@@ -7,7 +7,6 @@ data-warehouse-snowflake-for-data-engineering
 ### Architechture
 ![Architecture](screenshots/architecture.png)
 
-
 ### Nifi Setup
 ![Nifi](screenshots/nifi.jpeg)
 

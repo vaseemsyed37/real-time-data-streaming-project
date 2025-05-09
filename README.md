@@ -1,7 +1,7 @@
 # data-warehouse-snowflake-for-data-engineering
 data-warehouse-snowflake-for-data-engineering
 
-![Alt text](path_to_image)
+
 
 ## Project Screenshots
 
